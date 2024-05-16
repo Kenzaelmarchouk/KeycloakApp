@@ -72,6 +72,6 @@ app.post('/logout', keycloak.protect(), (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server is listening at http://vm1150.maq.aduneo.com:${port}`);
+    console.log(`Server is listening at http://localhost:${port}`);
 });
 
